@@ -1,13 +1,13 @@
 package com.example.estateempires;
 
-abstract class Login implements AppInterface {
+abstract class login implements AppInterface {
     String username;
     String password;
-    public Login() {
+    public login() {
 
     }
 
-    public Login(String user, String pass) {
+    public login(String user, String pass) {
         this.username = user;
         this.password = pass;
     }
